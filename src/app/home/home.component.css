@@ -1,0 +1,29 @@
+.container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-header-main {
+  margin: 10px;
+}
+
+.info_header_main > h6 {
+  width: auto;
+  color: #8f2140;
+  font-size: 16px;
+  padding: 0px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 20px;
+  line-height: 20px;
+}
+
+.separator_div {
+  height: 3px;
+  background: #11819b;
+  width: 100%;
+  margin: 5px 0px 0px;
+}

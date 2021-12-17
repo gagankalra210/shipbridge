@@ -1,0 +1,57 @@
+.container {
+  width: 600px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  /* border-radius: 5px; */
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin: 10px;
+}
+
+.container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.container > form > label {
+  margin-bottom: 5px;
+  color: #8f2140;
+}
+
+.container > form > input {
+  height: 30px;
+  background-color: white;
+  width: 98%;
+  border: 1px solid lightgray;
+}
+
+.save_button {
+  background: #11819b;
+  border: 1px solid;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.required_field {
+  color: #bd362f !important;
+}
+
+.error-div {
+  color: #bd362f !important;
+  font-size: 0.9rem;
+  max-height: 85px;
+}
+
+.error-div > div {
+  padding: 4px 0 0;
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: auto;
+  }
+}

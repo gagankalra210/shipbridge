@@ -1,0 +1,14 @@
+<div class="button_container"><Button (click)="close()">CLOSE</Button></div>
+<div class="container">
+  <div class="info_header_main">
+    <h6>
+      PLEASE EDIT THE ITEM DETAILS
+      <div class="separator_div"></div>
+    </h6>
+  </div>
+
+  <app-inventory-form
+    [itemData]="data"
+    (exitForm)="exit($event)"
+  ></app-inventory-form>
+</div>
